@@ -84,6 +84,22 @@ footer {
     cursor: pointer;
 }
 
+.page-content {
+  align-items: center;
+  font-size: 12vh;
+}
+
+.headline {
+  text-align: center;
+  display: block;
+  font-size: 12vh;
+}
+.subheadline {
+  text-align: center;
+  display: block;
+  font-size: 12px;
+}
+
 @media (orientation: portrait) {
   .panelnav {
     flex-direction: row; 

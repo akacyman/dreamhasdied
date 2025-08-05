@@ -9,15 +9,15 @@
 
 <pagetemplate :menuselect="menuselect" :thisselect="menuselect">
    <template v-if="menuselect === 2">
-    Creator<br><br>I'm just a guy<br>
+    <span class='headline'>I'm not an AI — Honest.</span>
   </template>
 
   <template v-else-if="menuselect === 3">
-    Please don't contact me.
+    <span class='headline'>Please don't contact me.</span>
   </template>
 
   <template v-else >
-The dream has died.
+<div><span class='headline'>The dream has died.</span><br><span class='subheadline'>Bought domain 11 years ago...</span></div>
   </template>
 
 </pagetemplate>
